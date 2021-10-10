@@ -1,0 +1,11 @@
+header {
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 35px 100px;
+    background: rgba(0, 0, 0, 0.75) url("../img/home.png");
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}

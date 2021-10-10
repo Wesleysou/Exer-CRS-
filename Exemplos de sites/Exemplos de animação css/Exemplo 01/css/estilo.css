@@ -1,0 +1,89 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#container{
+    width: 1000px;
+    height: 300px;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+figure{
+    width: 300px;
+    height: 250px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    /*transition: all 1s;imagem cresce gradativamente*/
+}
+
+/* img:hover{
+    transform: scale(2); rotate(360deg);aumenta a escala da imagem 
+    opacity: 0.5; tira a opacidade da imagem
+    box-shadow: 0px 0px 10px 20px #000; cria uma sombra
+    opacity: 1;
+}*/
+@keyframes animacao1 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes animacao2 {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+          opacity: 1;
+    }
+    
+}
+
+@keyframes animacao3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+#fig1:hover{
+    animation: animacao1 1s linear infinite;
+}
+
+#fig2:hover{
+    animation: animacao2 1s linear infinite;
+}
+
+#fig3:hover{
+    animation: animacao3 1s linear infinite;
+}

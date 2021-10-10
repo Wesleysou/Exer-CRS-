@@ -1,0 +1,579 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: Verdana;
+    line-height: 1.7;
+    background-color: #f2efdc;
+    color: #898670;
+}
+
+a {
+    text-decoration: none;
+    color: #f16a54;
+}
+
+figure {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    background-color: #ffff;
+}
+
+header nav a,
+footer nav a {
+    display: inline-block;
+    margin: 30px 0px;
+    color: #9d9879;
+    padding: 0px 20px;
+    border-right: 1px solid #9d9879;
+    border-bottom: 2px solid transparent;
+}
+
+header nav a:last-child,
+footer nav a:last-child {
+    border-right: none;
+}
+
+header nav a:hover {
+    color: tomato;
+    border-bottom: 2px solid #f16a54;
+}
+
+header .container {
+    display: flex;
+}
+
+header .container .geral {
+    text-align: right;
+}
+
+header .container #logo,
+header .cotainer .geraç {
+    width: 50%;
+}
+
+header .container #logo a {
+    display: flex;
+    align-items: center;
+}
+
+header .container #logo i {
+    font-size: flex;
+
+}
+
+.home {
+    display: none;
+}
+
+#hovernav {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #ffff;
+    color: #9d9879;
+
+}
+
+footer .logo {
+    font-size: 60px;
+    color: #e1dece;
+}
+
+footer nav {
+    padding: 20px 0px;
+}
+
+footer form {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+
+footer form input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 3px solid #e1dece;
+    font-size: 14px;
+    transition: 0.3s all;
+    outline: none;
+    padding-right: 100px;
+}
+
+footer form input:focus,
+footer form input:active {
+    border-color: #f16a54;
+}
+
+footer form #insc {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    background-color: #f16a54;
+    color: #e1dece;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+
+}
+
+footer #redes {
+    padding: 30px 0px;
+}
+
+footer #redes a {
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 26px;
+}
+
+footer #redes .facebook {
+    background-color: #3d5a9b;
+}
+
+footer #redes .twitter {
+    background-color: #1c9ac7;
+}
+
+footer #redes .pinterest {
+    background-color: #d11e2e;
+}
+
+#person {
+    padding: 90px 0px;
+    text-align: center;
+}
+
+#person .logo {
+    font-size: 60px;
+    color: #f16a54;
+}
+
+#person .size-title {
+    font-size: 60px;
+    color: #736f5c;
+    padding: 30px 0px;
+}
+
+#person .site-descripition {
+    font-size: 20px;
+    color: #9d9897;
+}
+
+#cooking-section article,
+#restaurant-section article,
+#fruits-section article,
+#vegetables-section article {
+
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+#cooking-section article figure,
+#restaurant-section article figure,
+#fruits-section article figure,
+#vegetables-section article figure {
+    padding-right: 100px;
+}
+
+#cooking-section {
+    background-color: #48172d;
+    color: #c09ead;
+}
+
+#restaurant-section {
+    background-color: #fbab18;
+    color: #96591d;
+
+}
+
+#fruits-section {
+    color: #898670;
+
+
+}
+
+#vegetables-section {
+    background-color: #879c29;
+    color: #f2efdc;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+#cooking-section .button {
+    background-color: #fbab18;
+    color: #48172d;
+}
+
+#restaurant-section .button {
+    background-color: #48172d;
+    color: #fbab18;
+}
+
+#fruits-section .button {
+    background-color: #879c29;
+    color: #f2efdc;
+}
+
+#vegetables-section .button {
+    background-color: #f2efdc;
+    color: #879c29;
+}
+
+.biografia {
+    padding: 100px 0px;
+}
+
+.biografia .container {
+    display: flex;
+}
+
+.biografia .container div,
+.biografia .container figure {
+    width: 50%;
+    margin: 50px;
+}
+
+.biografia figure {
+    background-color: #fff;
+    border: 10px solid #fff;
+    margin-bottom: 30px;
+}
+
+.biografia figure img {
+    width: auto;
+    height: 100%;
+}
+
+.biografia h2 {
+    font-weight: 100;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.biografia .detail {
+    list-style: none;
+    margin: 30px 0px;
+    padding: 0px;
+}
+
+.biografia .detail li {
+    margin-bottom: 20px;
+}
+
+.biografia .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f16e54;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px 0px;
+    color: #fff;
+}
+
+#servicos {
+    display: flex;
+    padding-top: 20px;
+}
+
+#servicos article {
+    text-align: center;
+}
+
+#servicos article .serv-icon {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: #f2efdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#servicos article .serv-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.purple .serv-icon {
+    background-color: #48172d;
+}
+
+.purple .serv-title {
+    color: #48172d;
+}
+
+.green .serv-icon {
+    background-color: #889c29;
+}
+
+.green .serv-title {
+    color: #889c29;
+}
+
+.pink .serv-icon {
+    background-color: #f16a54;
+}
+
+.pink .serv-title {
+    color: #f16a54;
+}
+
+.orange .serv-icon {
+    background-color: #fbab18;
+}
+
+.orange .serv-title {
+    color: #fbab18;
+}
+
+.lista-receitas {
+    margin-top: 50px;
+}
+
+.receita {
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.receita figure {
+    width: 25%;
+    margin-right: 45px;
+    border-radius: 150px;
+}
+
+.receita figure img {
+    width: 100%;
+    border-radius: 150px;
+}
+
+.receita .receita-detalhes {
+    width: 70%;
+}
+
+.receita .time,
+.reita .calorie,
+.reitas .comment {
+    margin-right: 15px;
+}
+
+#contato {
+    padding: 100px 0px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 42px;
+    color: #736f5c;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.contato-detalhes {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 20px;
+    border: 3px solid #e1bece;
+    margin-bottom: 30px;
+}
+
+.contato-detalhes span {
+    margin-right: 10px;
+}
+
+.contato-detalhes .local,
+.contato-detalhes .email,
+.contato-detalhes .cel {
+    margin-right: 40px;
+}
+
+#contato form {
+    width: 50%;
+    margin: 10px;
+    text-align: right;
+}
+
+#contato form input,
+#contato form textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 14px;
+    border: 2px solid #fff;
+    outline: none;
+    margin: 9px;
+}
+
+#conato form textarea {
+    height: 220px;
+}
+
+#contato form button {
+    background-color: #f16a54;
+    color: #f2efdc;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    header .container #logo {
+        width: 100%;
+    }
+
+    header .container a {
+        justify-content: center;
+    }
+
+    header nav,
+    footer nav {
+        display: flex;
+    }
+
+    .home {
+        display: flex;
+        width: 100%;
+    }
+
+    header nav a,
+    footer nav a {
+        padding: 0px 5px;
+    }
+
+    footer form {
+        width: 100%;
+    }
+
+    #cooking-section article,
+    #restaurant-section article,
+    #fruits-section article,
+    #vegetables-section article {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #cooking-section article figure,
+    #restaurant-section article figure,
+    #fruits-section article figure,
+    #vegetables-section article figure {
+        padding: 5px;
+    }
+
+    #cooking-section article figure img,
+    #restaurant-section article figure img,
+    #fruits-section article figure img,
+    #vegetables-section article figure img {
+        width: 100%;
+    }
+
+    .biografia {
+        padding: 10px 8px;
+    }
+
+    .biografia .container {
+        flex-direction: column;
+    }
+
+    .biografia .container div,
+    .biografia .container figure {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .biografia figure img {
+        width: 100%;
+    }
+
+    #servicos {
+        flex-direction: column;
+    }
+
+    .receita {
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .receita figure {
+        width: 80%;
+        margin-right: 0px;
+    }
+
+    .receita .receita-detalhes {
+        width: 100%;
+    }
+
+    .receita .receit-meta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contato form,
+    .contato-detalhes {
+        flex-direction: column;
+    }
+
+    #contato form .col {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    #contato form input, #contato form textarea{
+        margin-left: 0px;
+    }
+
+}

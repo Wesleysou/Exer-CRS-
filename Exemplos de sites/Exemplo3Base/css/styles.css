@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+html, body{
+    height: 100%;
+    color: #555;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 150px;
+    height: 2px;
+    background-color: #2196f3;
+    border: 0;
+    margin-bottom: 80px;
+}
+
+header{
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 35px 100px;
+    background: rgba(0, 0, 0, 0.75) url("../img/home.png");
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+header #navegacao{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around; /*da um espaço entre as letras*/
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+
+#navegacao h2{
+    font-family: Verdana;
+}
+
+#navegacao nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navegacao nav a, #navegacao h2 a {
+    margin: 0px 15px;
+    color: #fff;
+}
+
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#inicio h1{
+    font-size: 58pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#inicio h3{
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+.title{
+    color: #414;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 25px;
+}
+
+#portifolio, #servicos, #sobre, #contato{
+    min-height: 100%; /* delimita o tamanho de cada caixa*/
+}
+
+#portifolio, #sobre{
+    background-color: #fff;
+}
+
+#servicos, #contato{
+    background-color: #ccc;
+}
+
+#portfolio .grid{
+    display: flex;
+    flex-wrap: wrap;/*Quebra de linha*/
+    align-items: center;
+    padding: 20px;
+}
+
+#portfolio .grid img{
+    height: 250px;
+    margin: 5px;
+    flex-grow: 2;/*DEIXA AS IMGS UNIFORMES */
+}
+
+#servicos .grid{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#servicos .grid div{
+    padding: 0px 30px; /*espacamento para a direita e esquerda*/
+    width: 33%;
+    text-align: center
+}
+
+#servicos .grid i{
+    color: blue;
+    font-size: 40pt;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#servico .grid h4{
+    color: #555;
+    font-size: 18pt;
+    margin-bottom: 25px;
+}
+
+#sobre p{
+    text-align: center;
+    width: 80%;
+    font-size: 18pt;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+#view{
+    width: 48px;/*largura*/
+    height: 48px; /*altura*/
+    font-size: 20pt;
+    color: #fff;
+    padding: 5px;
+    border-radius: 24px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borda{
+    width: 55px;
+    height: 55px;
+    border-radius: 38px;
+    border: 2px dashed #2196f3;
+    position: absolute; /*encaixa a borda no div*/
+}
+
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#skills div{
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+#skills span{
+    display: none;
+}
+
+.barra{
+  background-color: #ccc;
+  height: 30px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+#contato form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;/*deixa os elemesntos em coluna*/
+}
+
+#contato form input{
+    padding: 15px;
+    width: 70%;
+    font-size: 16pt;
+    color: #555;
+}
+
+#contato form .btn{
+    padding: 18px 42px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 20pt;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #414141;
+    padding: 60px 0px;
+}
+
+footer div{
+    margin-bottom: 25px;
+    font-size: 38pt;
+}
+
+footer a{
+    margin: 0px 10px;
+    color: #fff;
+}
+
+#portifolio, #servico, #sobre, #contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 125px 100px;
+}
+
+@keyframes rotacao{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.borda{
+    animation: rotacao 3s linear infinite;
+}
+
+@keyframes porcentagem{
+    0%{
+        width: 0%;
+    }
+}
+
+#view:hover + section div span{
+    animation: porcentagem 2s;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    border: 3px solid #ccc;
+    background-color: #414;
+    display: block;
+    padding: 0;
+}
+
+#skills div:nth-child(1) span{
+    width: 90%;
+} 
+#skills div:nth-child(2) span{
+    width: 100%;
+} 
+#skills div:nth-child(3) span{
+    width: 30%;
+} 
+#skills div:nth-child(4) span{
+    width: 50%;
+} 
+#skills div:nth-child(5) span{
+    width: 25%;
+} 
+#skills div:nth-child(6) span{
+    width: 100%;
+} 

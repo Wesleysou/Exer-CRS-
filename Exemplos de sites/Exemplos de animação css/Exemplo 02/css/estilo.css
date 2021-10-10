@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+/*font-family: 'Shojumaru', cursive;/
+/font-family: 'Caveat', cursive;/
+/font-family: 'Dancing Script', cursive;/
+/font-family: 'Annie Use Your Telescope', cursive;*/
+
+body{
+    margin: 0px;
+    font-family:'Annie Use Your Telescope', cursive;
+    font-size: 18pt;
+}
