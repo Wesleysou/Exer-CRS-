@@ -1,0 +1,4 @@
+nome= input("Digite sua idade:")
+profissao= input ("Digite sua profissão:")
+idade= input("Digite a sua idade:")
+print("Óla",nome,"você exerce a profissão de",profissao,"e você tem",idade,"anos de idade")

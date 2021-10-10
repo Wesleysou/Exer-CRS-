@@ -1,0 +1,3 @@
+nome= input ("Digite seu nome:")
+Ultnome= input ("Digite seu nome ultimo:")
+prit= ("Bom dia",nome,"da familia",Ultnome)

@@ -1,0 +1,41 @@
+****Mensagem de Boa noite****
+---------------------------------
+nome= input("Digite o seu nome")
+print("Boa noite",nome)
+
+****Seja bem vindo****
+----------------------------------------------------
+print("Sejam bem vindos ao mundo da programação :)")
+nome= input("Digite o seu nome:")
+print("Seja bem vindo",nome)
+
+****Ecercicio 01****
+--------------------------------------------
+print("***********************************************")
+print("Análise e desenvolvimento de sistemas Unicsul")
+print("-----------------------------------------------")
+
+****Exercicio 02****
+----------------------------------------------
+nome= input("Digite o seu nome:")
+profissao= input("Digite sua profissão:")
+print("Òla",nome,"sua profissão é ",profissao)
+
+****Exercicio 03****
+----------------------------------------------
+nome= input("Digite sua idade:")
+profissao= input ("Digite sua profissão:")
+idade= input("Digite a sua idade:")
+print("Óla",nome,"você exerce a profissão de",profissao,"e você tem",idade,"anos de idade")
+
+****Exercicio 04****
+---------------------------------------------
+nome= input ("Digite seu nome:")
+Ultnome= input ("Digite seu nome ultimo:")
+prit= ("Bom dia",nome,"da familia",Ultnome)
+
+
+****Exercicio 05****
+---------------------------------------------
+esporte=input("Qual seu esporte favorito:")
+print=("Seu esporte favorito é",esporte)

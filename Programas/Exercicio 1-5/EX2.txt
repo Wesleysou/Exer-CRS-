@@ -1,0 +1,3 @@
+nome= input("Digite o seu nome:")
+profissao= input("Digite sua profissão:")
+print("Òla",nome,"sua profissão é ",profissao)
